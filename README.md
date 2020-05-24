@@ -2,7 +2,7 @@
 
 ## 專案介紹 ##
 
-本專案在Python的Django網站框架中，利用django-filter套件，來開發多條件的查詢功能，可以搭配[[Django教學9]6個步驟快速搞懂Django上傳圖片的功能](https://www.learncodewithmike.com/2020/05/django-filter.html)部落格文章來進行學習。
+本專案在Python的Django網站框架中，利用django-filter套件，來開發多條件的查詢功能，可以搭配[[Django教學18]善用Django Filter來快速建構多條件的查詢功能](https://www.learncodewithmike.com/2020/05/django-filter.html)部落格文章來進行學習。
 
 ## 前置作業 ##
 

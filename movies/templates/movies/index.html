@@ -9,7 +9,7 @@
     年份：{{ movieFilter.form.release_year }}
     <input type="submit" class="btn btn-primary" value="查詢" />
 </form>
-
+<br />
 <table class="table">
     <thead>
         <th>名稱</th>
@@ -18,11 +18,11 @@
     </thead>
     <tbody>
         {% for movie in movieFilter.qs %}
-            <tr>
-                <td>{{ movie.title }}</td>
-                <td>{{ movie.get_genre_display }}</td>
-                <td>{{ movie.release_year }}</td>
-            </tr>
+        <tr>
+            <td>{{ movie.title }}</td>
+            <td>{{ movie.get_genre_display }}</td>
+            <td>{{ movie.release_year }}</td>
+        </tr>
         {% endfor %}
     </tbody>
 </table>
